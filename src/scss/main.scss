@@ -1,0 +1,27 @@
+@import 'libs/normalize';
+@import 'libs/swiper-bundle.min';
+@import 'blocks/swipper';
+
+// Базовые стили
+@import 'base/service';
+@import 'base/fonts';
+@import 'base/vars';
+@import 'base/mixins';
+
+
+// Стили блоков
+@import 'blocks/title';
+@import 'blocks/btns';
+@import 'blocks/banner';
+@import 'blocks/promo';
+@import 'blocks/composition';
+@import 'blocks/steps';
+@import 'blocks/express';
+@import 'blocks/tabs';
+@import 'blocks/accounting';
+@import 'blocks/mechanism';
+@import 'blocks/meeting';
+@import 'blocks/contacts';
+
+// Медиа-запросы
+@import 'blocks/media';

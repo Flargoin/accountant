@@ -1,0 +1,45 @@
+.promo {
+    padding: 23px 0;
+    &__container {
+        padding: 0 15px;
+    }
+    &__block {
+        padding: 26px 0px 18px 61px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #FBF4E9;
+        border-radius: var(--border-radius);
+        font-style: normal;
+        &-title {
+            max-width: 363px;
+            font-family: var(--second-font);
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 49px;
+            color: #000000;
+        }
+        &-descr {
+            max-width: 570px;
+            margin-top: 20px;
+            font-family: var(--main-font);
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 23px;
+            color: #000000;
+        }
+        &-btn {
+            margin-top: 60px;
+        }
+        &-left {
+            margin-top: 24px;
+        }
+        &-right {
+            
+            max-width: 604px;
+            img {
+                width: 100%;
+                background-color: #FBF4E9;
+            }
+        }
+    }
+}

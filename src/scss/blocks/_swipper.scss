@@ -1,0 +1,35 @@
+.swiper {
+    &-button {
+        &-prev,
+        &-next {
+            width: 35px;
+            height: 62px;
+            &::after {
+                font-size: 0;
+                width: 100%;;
+                height: 100%;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+
+        &-prev {
+            left: 33px;
+            &::after {
+                background-image:url('../img/svg/arrow-left.svg');
+            }
+        }
+        &-next {
+            right: 33px;
+            &::after {
+                background-image:url('../img/svg/arrow-right.svg');
+            }
+        }
+    }
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    top: 30px;
+    left: 0;
+    bottom: auto;
+}

@@ -1,0 +1,31 @@
+.btn {
+    padding: 20px 0;
+    max-width: 330px;
+    width: 100%;
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    border-radius: var(--button-radius);
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+        background-color: #FFFFFF;
+        color: var(--main-color);
+    }
+    &--big {
+        max-width: 390px;
+    }
+    &--white {
+        background: #fff;
+        color: var(--main-color);
+        &:hover {
+            background-color: transparent;
+            color: #fff;
+            border: 1px solid #FFFFFF;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+:root {
+    // Colors
+    --main-bg: #FDFDFD;
+    --second-bg: #FBF4EC;
+    --main-color: #E64B13;
+
+    // Gradient
+    --gradient-banner: linear-gradient(89.35deg, #D14B5F 0.78%, #EF8E18 99.68%);
+    --gradient-tabs: linear-gradient(180deg, #E64B13 6.12%, #FAFF00 168.49%);
+
+    // Shadow
+    --main-shadow: 0px 19px 33px rgba(186, 74, 44, 0.26);
+
+    // Border
+    --border-radius: 10px;
+    --button-radius: 500px;
+
+    // Fonts
+    --main-font: 'Open Sans', sans-serif;
+    --second-font: 'Montserrat', sans-serif;
+}
