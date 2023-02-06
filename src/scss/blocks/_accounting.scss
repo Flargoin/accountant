@@ -133,9 +133,8 @@
         }
 
         &-main {
-            &-column {
-                border-radius: 0 0 10px 0;
-            }
+            border-radius: 0 0 10px 0;
+            overflow: hidden;
         }
         &-second {
             position: absolute;

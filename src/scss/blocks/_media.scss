@@ -203,7 +203,9 @@
             display: none;
         }
         &__list {
+            max-height: none;
             max-width: 100%;
+            overflow: visible;
             width: 80%;
             &-item {
                 &-top {
@@ -326,6 +328,9 @@
     }
 
     .mechanism {
+        &__slider {
+            height: auto;
+        }
         &__wrapper {
             display: block;
         }
@@ -686,7 +691,7 @@
     }
 
     .steps {
-        padding: 60px 0 40px 0;
+        padding: 91px 0 40px 0;
         &__block {
             &:not(:first-child) {
                 margin-top: 86px;
@@ -726,6 +731,7 @@
     }
 
     .accounting {
+        padding: 55px 0 81px 0;
         &__img {
             max-width: 100%;
             &-scheme {
@@ -737,12 +743,11 @@
                 }
             }
         }
-        &::after {
-            top: 80px;
-        }
     }
 
     .meeting {
+        padding-top: 90px;
+        padding-bottom: 43px;
         &__title {
             font-size: 24px;
             line-height: 29px;
@@ -761,6 +766,18 @@
         &__container {
             flex-direction: column;
             align-items: center;
+        }
+
+        &::after {
+            background-image: url('../img/meeting/back-mob.svg');
+            background-position: top;
+            min-height: 849px;
+        }
+    }
+
+    .contacts {
+        &::after {
+            background-position: center;
         }
     }
 
