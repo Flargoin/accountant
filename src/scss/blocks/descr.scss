@@ -1,0 +1,18 @@
+.descr {
+    &-OS {
+        font-family: var(--main-font);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        color: #000000;
+    }
+    &-Mon {
+        font-family: var(--second-font);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 26px;
+        color: #000000;
+    }
+}

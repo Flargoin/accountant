@@ -31,12 +31,7 @@
     &__descr {
         max-width: 570px;
         margin-top: 30px;
-        font-family: var(--main-font);
         font-style: italic;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 23px;
-        color: #000000;
     }
     &__block {
         display: flex;
@@ -55,13 +50,11 @@
     }
     &__text {
         max-width: 620px;
-        margin-top: 67px;
-        font-family: var(--main-font);
-        font-style: italic;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 23px;
-        color: #000000;
+        margin-top: 67px;   
+        span {
+            font-style: italic;
+            font-weight: 700;
+        }
     }
     &__banner {
         margin-top: 69px;
