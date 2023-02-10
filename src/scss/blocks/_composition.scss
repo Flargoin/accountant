@@ -16,31 +16,6 @@
         align-items: center;
         justify-content: space-between;
         &-item {
-            padding: 20px;
-            width: 100%;
-            font-family: var(--main-font);
-            background-color: var(--second-bg);
-            border-radius: var(--border-radius);
-            &-title {
-                font-style: normal;
-                font-weight: 700;
-                font-size: 16px;
-                line-height: 23px;
-                color: #000000;
-                span {
-                    display: inline-block;
-                    margin-right: 3px;
-                    color: var(--main-color);
-                }
-            }
-            &-descr {
-                margin-top: 10px;
-                font-style: italic;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 23px;
-                color: #000000;
-            }
             &:not(:first-child) {
                 margin-top: 10px;
             }

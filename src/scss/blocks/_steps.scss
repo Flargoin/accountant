@@ -33,6 +33,11 @@
     &__descr {
         margin-top: 45px;
         max-width: 600px;
+        font-family: var(--second-font);
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 26px;
+        color: #000000;
     }
     &__list {
         list-style-type: none;
@@ -41,23 +46,18 @@
         align-items: flex-start;
         justify-content: space-between;
         flex-wrap: wrap;
+        &-left,
+        &-right {
+            max-width: 570px;
+        }
     }
 
     &__item {
-        max-width: 570px;
-        width: 100%;
-        padding: 20px;
         background: #FFFFFF;
-        box-shadow: var(--main-shadow);
-        border-radius: var(--border-radius);
         &-descr {
             margin-top: 5px;
-            font-family: var(--main-font);
             font-style: normal;
             font-weight: 600;
-            font-size: 16px;
-            line-height: 23px;
-            color: #000000;
         }
         &:not(:last-child) {
             margin-bottom: 10px;
