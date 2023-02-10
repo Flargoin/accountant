@@ -90,6 +90,7 @@
         }
         &-list {
             max-width: 450px;
+            max-height: 810px;
             overflow-y: auto;
             &-item {
                 &-top {
@@ -144,6 +145,7 @@
 
    &__info {
         max-width: 960px;
+        max-height: 810px;
         padding: 30px 42px 30px 30px;
         &-algorithm {
             width: 100%;
